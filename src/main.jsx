@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import App from './HelloWorldApp';
 
 function App() {
-    
+
     return (<h1>Hola Mundo</h1>);
 }
 
