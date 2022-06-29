@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './HelloWorldApp';
+import CounterApp from './CounterApp';
+//import App from './HelloWorldApp';
 
 import './styles.css';
 
 ReactDOM.createRoot( document.getElementById('root') ).render(
     <React.StrictMode>
-        <App title="Hola soy Goku"/>
+        <CounterApp value={0} />
     </React.StrictMode>
 );
 
